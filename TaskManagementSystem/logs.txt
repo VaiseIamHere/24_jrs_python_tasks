@@ -1,0 +1,9 @@
+<----- All the Actions performed are Stored here ----->
+Added --> Run
+Adding Unsuccessfull
+Removed--> Run
+Added --> R
+Added --> a
+Added --> Z
+Added --> Climb
+Searched--> CLIMB
