@@ -1,7 +1,5 @@
-from pathlib import Path
-
-p1 = "TaskManagementSystem/logs.txt"
-p2 = "TaskManagementSystem/Task.txt"
+p1 = "logs.txt"
+p2 = "Task.txt"
 
 def updateLog(str):
     (open(p1,'a')).write(str+"\n")
@@ -76,7 +74,7 @@ def showAllTask():
 
 def clearLog():
     header = "<----- All the Actions performed are Stored here ----->\n"
-    (open("TaskManagementSystem/logs.txt",'w')).write(header)
+    (open(p1,'w')).write(header)
     print("Log Cleared.\n")
 
 def clearTask():
