@@ -1,5 +1,4 @@
 import random
-import keyboard
 
 class Game_Board:
     def __init__(self,size=10,bombs=20):
