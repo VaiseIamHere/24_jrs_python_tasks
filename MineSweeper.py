@@ -145,24 +145,24 @@ def play(size=10,bombs=20):
         print(board.print_board())
 
 
-print("<-----Welcome to Mine Sweepers !!----->\n\n")
-print("Choose Difficulty level:\n\t1.Easy (Upto 10 Mines) --> Enter 'E'\n\t2.Medium (Upto 20 Mines) --> Enter 'M'\n\t3.Hard (Upto 40 Mines) --> Enter 'H'\n")
-bombs = 0
-while True:
-    d = input('Enter: ')
-    d = d.replace(" ","").lower()
-    if d == 'e':
-        bombs = 10
-        print("\n\nGameMode: Easy\n\n")
-        break
-    elif d == 'm':
-        bombs = 20
-        print("\n\nGameMode: Medium\n\n")
-        break
-    elif d == 'h':
-        bombs = 40
-        print("\n\nGameMode: Hard\n\n")
-        break
-    print("Don't want to play or what ??")
+# print("<-----Welcome to Mine Sweepers !!----->\n\n")
+# print("Choose Difficulty level:\n\t1.Easy (Upto 10 Mines) --> Enter 'E'\n\t2.Medium (Upto 20 Mines) --> Enter 'M'\n\t3.Hard (Upto 40 Mines) --> Enter 'H'\n")
+# bombs = 0
+# while True:
+#     d = input('Enter: ')
+#     d = d.replace(" ","").lower()
+#     if d == 'e':
+#         bombs = 10
+#         print("\n\nGameMode: Easy\n\n")
+#         break
+#     elif d == 'm':
+#         bombs = 20
+#         print("\n\nGameMode: Medium\n\n")
+#         break
+#     elif d == 'h':
+#         bombs = 40
+#         print("\n\nGameMode: Hard\n\n")
+#         break
+#     print("Don't want to play or what ??")
 
-play(bombs=bombs)
+# play(bombs=bombs)
